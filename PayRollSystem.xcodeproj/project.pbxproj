@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BAD0E7A210A1244003A4A61 /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD0E79210A1244003A4A61 /* Intern.swift */; };
+		9BAD0E7C210A192E003A4A61 /* Fulltime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD0E7B210A192E003A4A61 /* Fulltime.swift */; };
+		9BAD0E7F210A2079003A4A61 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD0E7E210A2079003A4A61 /* PartTime.swift */; };
+		9BAD0E81210A269F003A4A61 /* CommisionBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD0E80210A269F003A4A61 /* CommisionBasedPartTime.swift */; };
+		9BAD0E83210A26C4003A4A61 /* FixedBasePartTme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD0E82210A26C4003A4A61 /* FixedBasePartTme.swift */; };
 		9BC391842109F809006F3E82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC391832109F809006F3E82 /* main.swift */; };
+		9BC3918B2109F8C5006F3E82 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3918A2109F8C5006F3E82 /* Vehicle.swift */; };
+		9BC3918F2109FAD8006F3E82 /* IPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3918E2109FAD8006F3E82 /* IPrintable.swift */; };
+		9BC391912109FDB5006F3E82 /* MotorCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC391902109FDB5006F3E82 /* MotorCycle.swift */; };
+		9BC391932109FF8C006F3E82 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC391922109FF8C006F3E82 /* Car.swift */; };
+		9BC39196210A0367006F3E82 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC39195210A0367006F3E82 /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +33,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9BAD0E79210A1244003A4A61 /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
+		9BAD0E7B210A192E003A4A61 /* Fulltime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fulltime.swift; sourceTree = "<group>"; };
+		9BAD0E7E210A2079003A4A61 /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
+		9BAD0E80210A269F003A4A61 /* CommisionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommisionBasedPartTime.swift; sourceTree = "<group>"; };
+		9BAD0E82210A26C4003A4A61 /* FixedBasePartTme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasePartTme.swift; sourceTree = "<group>"; };
 		9BC391802109F809006F3E82 /* PayRollSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PayRollSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC391832109F809006F3E82 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BC3918A2109F8C5006F3E82 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		9BC3918E2109FAD8006F3E82 /* IPrintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPrintable.swift; sourceTree = "<group>"; };
+		9BC391902109FDB5006F3E82 /* MotorCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorCycle.swift; sourceTree = "<group>"; };
+		9BC391922109FF8C006F3E82 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9BC39195210A0367006F3E82 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BAD0E7D210A201D003A4A61 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				9BC39195210A0367006F3E82 /* Employee.swift */,
+				9BAD0E79210A1244003A4A61 /* Intern.swift */,
+				9BAD0E7B210A192E003A4A61 /* Fulltime.swift */,
+				9BAD0E7E210A2079003A4A61 /* PartTime.swift */,
+				9BAD0E80210A269F003A4A61 /* CommisionBasedPartTime.swift */,
+				9BAD0E82210A26C4003A4A61 /* FixedBasePartTme.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
 		9BC391772109F809006F3E82 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +90,22 @@
 		9BC391822109F809006F3E82 /* PayRollSystem */ = {
 			isa = PBXGroup;
 			children = (
+				9BAD0E7D210A201D003A4A61 /* Employee */,
+				9BC39194210A02CF006F3E82 /* Vehicle */,
 				9BC391832109F809006F3E82 /* main.swift */,
+				9BC3918E2109FAD8006F3E82 /* IPrintable.swift */,
 			);
 			path = PayRollSystem;
+			sourceTree = "<group>";
+		};
+		9BC39194210A02CF006F3E82 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				9BC391922109FF8C006F3E82 /* Car.swift */,
+				9BC391902109FDB5006F3E82 /* MotorCycle.swift */,
+				9BC3918A2109F8C5006F3E82 /* Vehicle.swift */,
+			);
+			path = Vehicle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +165,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAD0E81210A269F003A4A61 /* CommisionBasedPartTime.swift in Sources */,
+				9BC3918B2109F8C5006F3E82 /* Vehicle.swift in Sources */,
+				9BAD0E7A210A1244003A4A61 /* Intern.swift in Sources */,
+				9BAD0E83210A26C4003A4A61 /* FixedBasePartTme.swift in Sources */,
+				9BC39196210A0367006F3E82 /* Employee.swift in Sources */,
+				9BAD0E7F210A2079003A4A61 /* PartTime.swift in Sources */,
+				9BAD0E7C210A192E003A4A61 /* Fulltime.swift in Sources */,
+				9BC391912109FDB5006F3E82 /* MotorCycle.swift in Sources */,
+				9BC391932109FF8C006F3E82 /* Car.swift in Sources */,
+				9BC3918F2109FAD8006F3E82 /* IPrintable.swift in Sources */,
 				9BC391842109F809006F3E82 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
